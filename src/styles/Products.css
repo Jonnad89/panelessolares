@@ -1,0 +1,34 @@
+.products {
+    padding: 50px 0;
+  }
+  
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: calc(33% - 20px);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #eee;
+  }
+  
+  .product img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
