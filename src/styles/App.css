@@ -41,3 +41,15 @@ body {
   }
 }
 
+@media (max-width: 412px) {
+  /* Ajustes de estilo para pantallas con ancho máximo de 412px */
+  .feature {
+    width: 100%; /* Ancho del 100% en pantallas pequeñas */
+    margin-bottom: 20px;
+  }
+
+  .product {
+    width: 100%; /* Ancho del 100% en pantallas pequeñas */
+    margin-bottom: 20px;
+  }
+}

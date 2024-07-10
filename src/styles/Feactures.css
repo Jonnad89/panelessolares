@@ -6,13 +6,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start; /* Alinear verticalmente los elementos */
   }
   
   .feature {
-    width: calc(25% - 20px);
+    width: calc(50% - 20px); /* 50% del ancho disponible, menos márgenes */
     padding: 20px;
     text-align: center;
     border: 1px solid #eee;
+    flex-grow: 1; /* Permitir que los elementos crezcan si hay espacio disponible */
   }
   
   .feature i {
@@ -29,5 +31,18 @@
   .feature p {
     font-size: 1em;
     line-height: 1.5;
+  }
+  
+  @media (min-width: 913px) {
+    .features-list {
+      flex-direction: column; 
+      /* Apilar elementos verticalmente en pantallas pequeñas */
+      align-items: center;
+    }
+  
+    .feature {
+      width: 100%; /* Ancho del 100% en pantallas pequeñas */
+      margin-bottom: 20px;
+    }
   }
   
