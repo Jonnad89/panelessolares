@@ -12,12 +12,32 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-@media (max-width: 768px) {
-  .banner h1 {
-    font-size: 2em;
+@media (max-width: 412px) {
+  .footer {
+    text-align: center;
   }
 
-  .banner p {
-    font-size: 1em;
+  .footer nav {
+    text-align: center;
+  }
+
+  .footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer nav li {
+    margin: 10px 0;
+  }
+
+  .footer .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer .social-media a {
+    margin: 0 10px;
   }
 }
+
