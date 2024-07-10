@@ -12,8 +12,10 @@
   .feature {
     width: calc(50% - 20px); /* 50% del ancho disponible, menos márgenes */
     padding: 20px;
+    background-color: green;
+    color: white;
     text-align: center;
-    border: 1px solid #eee;
+    border: 2px dotted green;
     flex-grow: 1; /* Permitir que los elementos crezcan si hay espacio disponible */
   }
   

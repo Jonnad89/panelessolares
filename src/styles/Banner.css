@@ -1,17 +1,21 @@
 /* Estilos específicos para el componente Banner */
 
 .banner {
-    background-image: url('https://pixabay.com/es/images/search/paneles%20solares/');
+    /* background-image: url('https://pixabay.com/es/images/search/paneles%20solares/'); */
     background-size: cover;
     background-position: center;
     padding: 50px 0;
     text-align: center;
-    color: white;
+    color: #000;
   }
   
   .banner h1 {
     font-size: 3em;
     margin-bottom: 20px;
+  }
+
+  .highlight{
+    color: #FFA500;
   }
   
   .banner p {
@@ -20,10 +24,19 @@
   }
   
   .banner button {
-    background-color: #007bff;
-    color: white;
+    /* background-color: #007bff; */
+    background-color: green;
+    color: #fff;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid yellow;
     cursor: pointer;
+    box-shadow: 2px 2px #000;
+    transition: background-color 0.3s ease, box-shadow 0.3s, transform 0.3s ease;
+
+  }
+  .banner button:hover {
+  background-color: #45a049;
+  box-shadow: 0 5px 15px rga(0,0,0,0.3);
+  transform: translateY(-3px);
   }
   

@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <section className="features">
       <div className="container">
-        <h2>Beneficios de la energía solar</h2>
+        <h2>Beneficios de la energía solar:</h2>
         <div className="features-list">
           <div className="feature">
             <i className="fas fa-money-bill-alt"></i>

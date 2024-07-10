@@ -1,10 +1,13 @@
 .header {
     background-color: #f0f0f0;
     padding: 20px 0;
+    margin: 20px;
+    border: 2px solid green;
+
   }
   
   .container {
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -33,5 +36,11 @@
   nav a {
     color: #333;
     text-decoration: none;
+    transition: font-size 0.3s ease;
+  }
+
+  nav a:hover{
+    color: green;
+    font-size: 20px;
   }
   
